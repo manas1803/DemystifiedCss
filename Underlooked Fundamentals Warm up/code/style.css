@@ -1,0 +1,46 @@
+:root
+{
+    --clr--main:#171717;
+    --clr--bg:#fff;
+    --clr--bg--btn:#59E89C;
+
+    --font-family:'PT Sans', sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: var(--font-family);
+    line-height: 1.6;
+    font-size: 1.15rem;
+    color: var(--clr--main);
+}
+img{
+    display: block;
+    position: absolute;
+}
+.hero{
+    position: absolute;
+    z-index: 2;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--clr--bg);
+    left: 21rem;
+    top: 10rem;
+    max-width: 41rem;
+}
+.hero__title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+.hero__button{
+    background-color: var(--clr--bg--btn);
+    padding: 0.6rem 2rem;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+}
